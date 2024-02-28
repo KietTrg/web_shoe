@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.custom-slider button.slick-next {
+    right: 80px;
+    z-index: 10;
+}
+
+.custom-slider button.slick-prev {
+    left: 20px;
+    z-index: 10;
+}
+
+.custom-slider button.slick-next::before {
+    color: #005f90;
+    content: '\276D';
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-slider button.slick-prev::before {
+    color: #005f90;
+    content: '\276C';
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-slider button.slick-next {
+    right: 0px;
+    top: 55px;
+    z-index: 10;
+}
+
+.img-slider button.slick-prev {
+    left: 0px;
+    top: 55px;
+    z-index: 10;
+}
+
+.img-slider button.slick-next::before {
+    color: #005f90;
+    content: '\276D';
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-slider button.slick-prev::before {
+    color: #005f90;
+    content: '\276C';
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    appearance: none;
+}
+
+/* .my-masonry-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: -10px;
+    width: auto;
+}
+
+.my-masonry-grid_column {
+    background-clip: padding-box;
+}
+*/
+.my-masonry-grid_column>div {
+    margin-bottom: 30px;
+}
+
+.w500 {
+    width: 500px;
+}
+
+code {
+    white-space: initial;
+}
